@@ -85,9 +85,9 @@ Yes. A skin is one file in `skins/`. See [Make your own skin](docs/make-a-skin.m
 
 ## Watch it
 
-[![A 27-second tour of all four skins](assets/screens/film-poster.jpg)](assets/retro-skins-tour.mp4)
+https://github.com/user-attachments/assets/bb873af1-00ed-4671-abee-b6f2ad30ba0d
 
-A 27-second tour of all four skins. Click to play.
+A 27-second tour of all four skins.
 
 ---
 
