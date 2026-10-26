@@ -1,0 +1,29 @@
+# Retro Chat
+
+> A Claude Code mod that skins your chat as iMessage, MSN Messenger, AIM or IRC.
+
+Retro Chat changes how the chat looks on your screen. It does not change what Claude sees or says. Switch with `/skin imessage`, `/skin msn`, `/skin aim` or `/skin irc`, and turn it off with `/skin off`. Each skin has its own message style, spinner text, pixel buddy and sounds. Settings are a screen name and a sounds switch. It is MIT licensed.
+
+Install in Claude Code:
+
+```
+/plugin install retro-chat --marketplace hg913488/claude-code-retro-skins
+```
+
+## Docs
+
+- [README](https://github.com/hg913488/claude-code-retro-skins/blob/main/README.md): what the skins look like, install, settings, FAQ
+- [Make your own skin](https://github.com/hg913488/claude-code-retro-skins/blob/main/docs/make-a-skin.md): add a skin to the mod
+- [AGENTS.md](https://github.com/hg913488/claude-code-retro-skins/blob/main/AGENTS.md): layout, checks and conventions for coding agents
+
+## Source
+
+- [hooks/register.tsx](https://github.com/hg913488/claude-code-retro-skins/blob/main/hooks/register.tsx): the `/skin` command, sounds, popups and render hooks
+- [skins/shared.ts](https://github.com/hg913488/claude-code-retro-skins/blob/main/skins/shared.ts): the `Skin` type and shared helpers
+- [skins/msn.tsx](https://github.com/hg913488/claude-code-retro-skins/blob/main/skins/msn.tsx): a complete example skin
+- [.claude-plugin/plugin.json](https://github.com/hg913488/claude-code-retro-skins/blob/main/.claude-plugin/plugin.json): plugin manifest and settings
+- [tests/skins.test.tsx](https://github.com/hg913488/claude-code-retro-skins/blob/main/tests/skins.test.tsx): the test suite
+
+## Optional
+
+- [LICENSE](https://github.com/hg913488/claude-code-retro-skins/blob/main/LICENSE): MIT

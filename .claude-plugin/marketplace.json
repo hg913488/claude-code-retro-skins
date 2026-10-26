@@ -1,0 +1,6 @@
+{
+  "name": "retro-chat",
+  "owner": { "name": "HG" },
+  "description": "Retro Chat: your Claude Code chat as iMessage, MSN Messenger, AIM or IRC.",
+  "plugins": [{ "name": "retro-chat", "source": "./" }]
+}

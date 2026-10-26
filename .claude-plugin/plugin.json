@@ -1,0 +1,25 @@
+{
+  "name": "retro-chat",
+  "version": "0.1.1",
+  "description": "Skins for your Claude Code chat: iMessage, MSN Messenger, AIM and IRC. /skin to switch.",
+  "author": { "name": "HG", "url": "https://github.com/hg913488" },
+  "homepage": "https://github.com/hg913488/claude-code-retro-skins",
+  "repository": "https://github.com/hg913488/claude-code-retro-skins",
+  "license": "MIT",
+  "keywords": ["skins", "theme", "terminal", "imessage", "msn", "aim", "irc", "nostalgia"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "name": {
+      "type": "string",
+      "title": "Your name",
+      "description": "The name your messages show under, like a screen name.",
+      "default": "You"
+    },
+    "sounds": {
+      "type": "boolean",
+      "title": "Sounds",
+      "description": "Play each skin's sounds: signing on and off, and a ding when Claude finishes a turn of 30 seconds or more. Turn off for silence; the look stays.",
+      "default": true
+    }
+  }
+}
