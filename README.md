@@ -89,6 +89,12 @@ https://github.com/user-attachments/assets/bb873af1-00ed-4671-abee-b6f2ad30ba0d
 
 A 27-second tour of all four skins.
 
+## More Claude Code mods
+
+- [Agent Status](https://github.com/hg913488/claude-code-agent-status): a side panel showing what every subagent is doing
+- [Remind](https://github.com/hg913488/claude-code-reminders): "remind me to…" with due dates above the prompt
+- [Hyperspace](https://github.com/hg913488/claude-code-hyperspace): a space-opera spinner and a blade that ignites
+
 ---
 
 MIT licensed. Made by [HG](https://github.com/hg913488). Not affiliated with Apple, Microsoft, AOL or Yahoo. iMessage, MSN Messenger and AIM are their owners' trademarks, named here only to describe the look.
