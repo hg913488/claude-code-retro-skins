@@ -1,8 +1,18 @@
-# Retro skins for Claude Code: iMessage, MSN Messenger, AIM and IRC
+<p align="center"><img src="assets/social-preview.jpg" alt="Retro skins for Claude Code: iMessage, MSN Messenger, AIM and IRC" width="100%"></p>
 
-Retro Chat is a Claude Code mod that makes your chat look like the messengers you grew up with. Type `/skin msn` and Claude signs in.
+<h1 align="center">Retro skins for Claude Code: iMessage, MSN Messenger, AIM and IRC</h1>
 
-![Claude Code chat switching between the iMessage, MSN, AIM and IRC skins](assets/retro-skins.gif)
+<p align="center">Retro Chat is a Claude Code mod that makes your chat look like the messengers you grew up with. Type <code>/skin msn</code> and Claude signs in.</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-2f81f7"></a>
+  <img alt="Claude Code mod" src="https://img.shields.io/badge/Claude%20Code-mod-d97757">
+  <img alt="version 0.1.1" src="https://img.shields.io/badge/version-0.1.1-555">
+</p>
+
+<p align="center"><a href="#install">Install</a> · <a href="#what-each-skin-looks-like">What each skin looks like</a> · <a href="#faq">FAQ</a> · <a href="#watch-it">Watch the tour</a></p>
+
+<p align="center"><img src="assets/retro-skins.gif" alt="Claude Code chat switching between the iMessage, MSN, AIM and IRC skins"></p>
 
 ## Install
 
@@ -15,6 +25,16 @@ In Claude Code:
 Then type `/skin` to see the skins, and `/skin imessage`, `/skin msn`, `/skin aim` or `/skin irc` to switch. `/skin off` puts everything back.
 
 In the desktop app, click **+** next to the prompt box → **Plugins** → **Add marketplace** → `hg913488/claude-code-retro-skins` → **Add plugin**.
+
+## What each skin looks like
+
+<p align="center"><img src="assets/screens/retro-msn.png" alt="MSN skin: You says, and the green pixel buddy while Claude is typing a message" width="100%"><br><sub><b>MSN Messenger</b> · "Claude is typing a message…"</sub></p>
+
+<p align="center"><img src="assets/screens/retro-aim.png" alt="AIM skin: timestamps, the running buddy, and the away message brb, writing code" width="100%"><br><sub><b>AIM</b> · away message in the status line</sub></p>
+
+<p align="center"><img src="assets/screens/retro-irc.png" alt="IRC skin: Claude has joined #demo, timestamps in brackets, and the space invader buddy" width="100%"><br><sub><b>IRC</b> · "* Claude has joined #demo"</sub></p>
+
+<p align="center"><img src="assets/screens/retro-imessage.png" alt="iMessage skin: a blue bubble marked Delivered and the speech-bubble buddy" width="100%"><br><sub><b>iMessage</b> · blue bubbles, "Delivered"</sub></p>
 
 ## The skins
 
@@ -65,7 +85,9 @@ Yes. A skin is one file in `skins/`. See [Make your own skin](docs/make-a-skin.m
 
 ## Watch it
 
-[A 27-second tour of all four skins](assets/retro-skins-tour.mp4)
+[![A 27-second tour of all four skins](assets/screens/film-poster.jpg)](assets/retro-skins-tour.mp4)
+
+A 27-second tour of all four skins. Click to play.
 
 ---
 
