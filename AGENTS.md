@@ -10,7 +10,7 @@ Retro Chat (install name `retro-chat`) is a Claude Code plugin ("mod") that skin
 
 - `.claude-plugin/plugin.json`: name, version, and the `userConfig` settings (`name`, `sounds`).
 - `.claude-plugin/marketplace.json`: lets the repo act as its own marketplace.
-- `.claude-plugin/types/`: type stubs for the `claude-code` module. Used by `tsconfig.json`.
+- `.claude-plugin/types/`: type stubs for the `claude-code` module. Used by `tsconfig.json`. Claude Code writes them when it loads the mod (for example with `claude --plugin-dir .`). They are not in git, so `tsc` fails in a fresh clone until the mod has been loaded once.
 - `hooks/hooks.json`: loads `./register.tsx` as a module.
 - `hooks/register.tsx`: all the behaviour. The skin registry, the `/skin` command, sounds, popups, the away message, and the render hooks for `UserMessage`, `AssistantMessage`, `Spinner` and `TurnDuration`.
 - `hooks/sprite.tsx`: the terminal spinner sprite, a client module that swaps frames every 400 ms.

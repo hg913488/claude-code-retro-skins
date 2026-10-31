@@ -48,7 +48,7 @@ test('each skin draws your message and the reply, on terminal and desktop', { op
   on('command.register', () => ({ value: { command: 'skin' } }))
   on('config.list', () => ({ value: [] }))
   on('process.run', ($, e) => ({
-    value: { exitCode: 0, stdout: e.argv[0] === 'pwd' ? '/Users/hg/kessel\n' : '-0700\n', stderr: '', isStdoutTruncated: false, isStderrTruncated: false },
+    value: { exitCode: 0, stdout: e.argv[0] === 'pwd' ? '/work/kessel\n' : '-0700\n', stderr: '', isStdoutTruncated: false, isStderrTruncated: false },
   }))
   on('session.start', (_, e) => ({ cwd: e.cwd }))
   on('ui.log', () => ({ value: undefined }))
@@ -58,7 +58,7 @@ test('each skin draws your message and the reply, on terminal and desktop', { op
     return <Text>engine</Text>
   })
 
-  await $.session.start({ cwd: '/Users/hg/kessel', surface: 'terminal', isInteractive: true })
+  await $.session.start({ cwd: '/work/kessel', surface: 'terminal', isInteractive: true })
 
   for (const [id, want] of Object.entries(EXPECT)) {
     const switched = await $.command.run(skinCommand(id))

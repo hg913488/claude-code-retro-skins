@@ -58,7 +58,7 @@ Open `/config` and find **retro-chat**:
 - **Your name**: the screen name on your messages. Default `You`.
 - **Sounds**: on by default. Turn it off for silence and keep the look.
 
-The sounds play when you switch skins and when Claude finishes a turn that took 30 seconds or more. Short replies stay quiet.
+The sounds play when Claude signs on or off (switching skins, and starting or leaving a session) and when Claude finishes a turn that took 30 seconds or more. Short replies stay quiet.
 
 ## FAQ
 

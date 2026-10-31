@@ -163,6 +163,8 @@ npx -y -p typescript@5.6.3 tsc --noEmit -p .
 claude plugin validate .
 ```
 
+`tsc` needs the type stubs in `.claude-plugin/types/`, which Claude Code writes when it loads the mod (for example with `claude --plugin-dir .`). In a fresh clone, load the mod once first.
+
 Some tests may list skins by hand, such as the sprite and sound tests. If one fails on your skin, read it and add your skin where it lists the others.
 
 To try it by hand, install the repo as a plugin, run `/skin icq`, send a message, and ask for a table to check the `drawn` path.
